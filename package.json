@@ -4,7 +4,7 @@
     "description": "A simple and hybrid keymap.",
     "version": "0.0.1",
     "publisher": "loveminimal",
-    "icon": "",
+    "icon": "images/icon.png",
     "repository": {
 		"type": "git",
 		"url": "https://github.com/loveminimal/vscode-cve-keymap"
