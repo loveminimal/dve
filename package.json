@@ -1,6 +1,6 @@
 {
     "name": "cve",
-    "displayName": "cve",
+    "displayName": "CVE Keymap",
     "description": "A simple hybrid keymap.",
     "version": "0.0.1",
     "engines": {
@@ -12,8 +12,129 @@
     "contributes": {
         "keybindings": [
             {
-                "key": "ctrl+.",
+                "key": "alt+p",
+                "command": "workbench.action.quickOpen"
+            },
+            {
+                "key": "alt+n",
+                "command": "workbench.action.terminal.toggleTerminal",
+                "when": "terminal.active"
+            },
+            {
+                "key": "alt+x",
                 "command": "workbench.action.showCommands"
+            },
+            {
+                "key": "alt+x",
+                "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+                "when": "inFilesPicker && inQuickOpen"
+            },
+            {
+                "key": "alt+i",
+                "command": "editor.action.insertSnippet"
+            },
+            {
+                "key": "ctrl+j ctrl+b",
+                "command": "workbench.action.toggleActivityBarVisibility"
+            },
+            {
+                "key": "alt+h",
+                "command": "cursorLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+l",
+                "command": "cursorRight",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+k",
+                "command": "cursorUp",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+j",
+                "command": "cursorDown",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+g",
+                "command": "cursorHome",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+oem_1",
+                "command": "cursorEnd",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "ctrl+oem_1",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+oem_2",
+                "command": "undo"
+            },
+            {
+                "key": "ctrl+j ctrl+z",
+                "command": "workbench.action.toggleZenMode"
+            },
+            {
+                "key": "ctrl+j ctrl+e",
+                "command": "workbench.view.explorer",
+                "when": "viewContainer.workbench.view.explorer.enabled"
+            },
+            {
+                "key": "ctrl+j ctrl+g",
+                "command": "workbench.view.scm",
+                "when": "workbench.scm.active"
+            },
+            {
+                "key": "ctrl+j ctrl+f",
+                "command": "workbench.action.replaceInFiles"
+            },
+            {
+                "key": "alt+s",
+                "command": "workbench.action.replaceInFiles"
+            },
+            {
+                "key": "alt+oem_7",
+                "command": "editor.action.triggerSuggest",
+                "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+oem_7",
+                "command": "toggleSuggestionDetails",
+                "when": "suggestWidgetVisible && textInputFocus"
+            },
+            {
+                "key": "ctrl+oem_7",
+                "command": "editor.action.triggerSuggest",
+                "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+oem_7",
+                "command": "toggleSuggestionDetails",
+                "when": "suggestWidgetVisible && textInputFocus"
+            },
+            {
+                "key": "alt+j",
+                "command": "workbench.action.quickOpenSelectNext"
+            },
+            {
+                "key": "alt+k",
+                "command": "workbench.action.quickOpenSelectPrevious"
+            },
+            {
+                "key": "alt+j",
+                "command": "selectNextSuggestion",
+                "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+            },
+            {
+                "key": "alt+k",
+                "command": "selectPrevSuggestion",
+                "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
             }
         ]
     }
