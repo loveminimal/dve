@@ -1,6 +1,7 @@
 {
     "name": "cve",
     "displayName": "CVE Keymap",
+    "publisher": "loveminimal",
     "description": "A simple hybrid keymap.",
     "version": "0.0.1",
     "engines": {
