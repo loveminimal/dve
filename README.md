@@ -1,3 +1,4 @@
+<!-- 
 # README
 ## This is the README for your extension "cve"
 You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
@@ -10,4 +11,17 @@ You can author your README using Visual Studio Code.  Here are some useful edito
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy!** 
+-->
+
+What's `CVE` ?  Code-Vim-Emacs ! 😏 Yep, it's just a simple and hybrid keymap.
+
+### Keyboard Shortcuts
+
+Here is a intial keybindings screenshot:
+
+![cve](https://ovirgo.com/posts/editor-keybindings/imgs/3.jpg)
+
+### Howto
+
+todo...
