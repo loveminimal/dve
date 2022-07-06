@@ -1,9 +1,21 @@
 {
-    "name": "cve-km",
+    "name": "cve-keymap",
     "displayName": "CVE Keymap",
-    "publisher": "loveminimal",
-    "description": "A simple hybrid keymap.",
+    "description": "A simple and hybrid keymap.",
     "version": "0.0.1",
+    "publisher": "loveminimal",
+    "icon": "",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/loveminimal/cve-keymap"
+	},
+    "keywords": [
+		"emacs",
+		"keybindings",
+		"vim",
+		"hybrid"
+	],
+    "license": "MIT",
     "engines": {
         "vscode": "^1.68.0"
     },
