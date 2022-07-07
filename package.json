@@ -71,6 +71,26 @@
                 "when": "textInputFocus"
             },
             {
+                "key": "alt+j",
+                "command": "workbench.action.quickOpenSelectNext",
+                "when": "inQuickOpen"
+            },
+            {
+                "key": "alt+k",
+                "command": "workbench.action.quickOpenSelectPrevious",
+                "when": "inQuickOpen"
+            },
+            {
+                "key": "alt+j",
+                "command": "selectNextSuggestion",
+                "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+            },
+            {
+                "key": "alt+k",
+                "command": "selectPrevSuggestion",
+                "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+            },
+            {
                 "key": "alt+g",
                 "command": "cursorHome",
                 "when": "textInputFocus"
@@ -130,24 +150,6 @@
                 "key": "ctrl+oem_7",
                 "command": "toggleSuggestionDetails",
                 "when": "suggestWidgetVisible && textInputFocus"
-            },
-            {
-                "key": "alt+j",
-                "command": "workbench.action.quickOpenSelectNext"
-            },
-            {
-                "key": "alt+k",
-                "command": "workbench.action.quickOpenSelectPrevious"
-            },
-            {
-                "key": "alt+j",
-                "command": "selectNextSuggestion",
-                "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-            },
-            {
-                "key": "alt+k",
-                "command": "selectPrevSuggestion",
-                "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
             }
         ]
     }
