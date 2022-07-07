@@ -2,7 +2,7 @@
     "name": "cve-keymap",
     "displayName": "CVE Keymap",
     "description": "A simple and hybrid keymap.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "loveminimal",
     "icon": "images/icon.png",
     "repository": {
